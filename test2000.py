@@ -8,7 +8,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-df_events = pd.read_csv("C:/Users/lubke/Documents/Data projet Ecommerce/events.csv")
+df_events = pd.read_csv("https://cedricboure.com/wp-content/events.csv")
 df_events.head()
 
 user_value_counts = df_events['visitorid'].value_counts()
